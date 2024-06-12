@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <title>CCSE Automated Liquidation System</title>
+</head>
+<body>
+   <!-- This is only a hidden -->
+   <input type="file" name="takePicture" id="takePicture" accept="image/*" capture="environment" style="display: none;">
+
+   <!-- This is only a hidden -->
+   <input type="file" name="uploadImage" id="uploadImage" accept="image/*" style="display: none;">
+
+   
+   <div class="upload-container">
+       <!-- camera button -->
+       <img src="images/camera.jpg" id="takePictureButton" class="customButton" alt="Take a Picture">
+
+        <!-- gallery button -->
+       <img src="images/upload.png" id="uploadImageButton" class="customButton" alt="Upload an Image">
+
+      
+   </div>
+
+   <div id="rec_con"></div>
+
+
+
+
+    
+    <script src="js/index.js"></script>
+</body>
+</html>

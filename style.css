@@ -1,0 +1,22 @@
+
+.customButton {
+    cursor: pointer;
+    display: block;
+    width: 150px;
+    height: 150px;
+    margin-top: 300px;
+
+   
+}
+
+
+.upload-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    text-align: center;
+
+}
+
+
